@@ -120,7 +120,6 @@ def play(word):
             print('Вы проиграли. Было загадано слово:', word)
             break
         if word_completion.isalpha():
-            display(tries, word_completion)
             print('Вы угадали слово!')
             break
         letter_word = letter_word_input()
